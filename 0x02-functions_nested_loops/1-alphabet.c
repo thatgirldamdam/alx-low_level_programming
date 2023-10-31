@@ -1,18 +1,22 @@
-#include <stdio.h>
+#include "main.h"
 
-void print_alphabet(void) {
-    char letter = 'a';
+/**
+ * main - function
+ * Return: 0
+ */
 
-    while (letter <= 'z') {
-        putchar(letter);
-        letter++;
-    }
+int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 
-    putchar('\n');
-}
-
-int main() {
-    print_alphabet();
-    return 0;
 }
 
